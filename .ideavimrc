@@ -1,0 +1,42 @@
+let mapleader=' '
+set ideaput
+scrolloff=0
+set clipboard+=unnamed
+set showmode
+set showcmd
+set relativenumber
+set number
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set easymotion
+set highlightedyank
+set hsl
+noremap <Space> <Nop>
+noremap <C-w> :q<CR>
+vnoremap <leader>p "_dP
+vnoremap <leader>y "+
+nnoremap <leader>y "+y
+
+noremap <C-j> <C-d>zz
+noremap <C-k> <C-u>zz
+nnoremap <leader>o o<Esc>0"_D
+nnoremap <leader>O O<Esc>0"_D
+
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+# search and replace on word starting empty
+nnoremap <leader><leader>c viwy:%s/\<<C-r>"\>//gc<left><left><left>
+
+# search and replace on word starting with what you're replacing
+nnoremap <leader><leader>r viwy:%s/\<<C-r>"\>/<C-r>"/gc<left><left><left>
+
+# search and replace selected text starting empty
+vnoremap <leader><leader>r y:%s/<C-r>"/<C-r>"/gc<left><left><left>
+
+# search and replace selected text starting empty
+vnoremap <leader><leader>r y:%s/<C-r>"/<C-r>"/gc<left><left><left>
+
+noremap x "_x
