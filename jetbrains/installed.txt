@@ -1,0 +1,10 @@
+com.chylex.intellij.inspectionlens
+idea.plugin.protoeditor
+IdeaVIM
+com.joshestein.ideavim-quickscope
+com.github.copilot
+com.intellij.resharper.StructuredLogging
+me.seclerp.rider.plugins.efcore
+intellij.vitejs
+com.microsoft.vso.idea
+io.github.mishkun.ideavimsneak

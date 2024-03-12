@@ -1,0 +1,88 @@
+<application>
+  <component name="VSTSSettings">
+    <option name="serverContexts">
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Platform" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;5e7e8a3a-981c-4ead-a790-7c8f5580c717&quot;,&quot;name&quot;:&quot;Platform&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Platform&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/5e7e8a3a-981c-4ead-a790-7c8f5580c717&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Common.Server.JS" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;de02b43d-2e51-4309-bdba-f52130785c36&quot;,&quot;name&quot;:&quot;Common.Server.JS&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Common.Server.JS&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/de02b43d-2e51-4309-bdba-f52130785c36&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Optimizer" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;d953264e-0981-481e-9022-ed916978bedc&quot;,&quot;name&quot;:&quot;Optimizer&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Optimizer&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/d953264e-0981-481e-9022-ed916978bedc&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/WinTally/_git/WinTallyWeb" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;bec861c2-afdd-46db-96d5-4d3e5a111376&quot;,&quot;name&quot;:&quot;WinTally&quot;,&quot;revision&quot;:132,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/bec861c2-afdd-46db-96d5-4d3e5a111376&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;8790edc4-6dd0-4924-805f-f7ce58442c44&quot;,&quot;name&quot;:&quot;WinTallyWeb&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/WinTally/_git/WinTallyWeb&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/8790edc4-6dd0-4924-805f-f7ce58442c44&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;bec861c2-afdd-46db-96d5-4d3e5a111376&quot;,&quot;name&quot;:&quot;WinTally&quot;,&quot;revision&quot;:132,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/bec861c2-afdd-46db-96d5-4d3e5a111376&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/Salmon%20Arm%20-%20UX%20%28Embarcadero%29/_git/ScannerDiagWeb" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;0bfe8279-ec81-4a4d-8fca-e89d2082d430&quot;,&quot;name&quot;:&quot;Salmon Arm - UX (Embarcadero)&quot;,&quot;revision&quot;:154,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/0bfe8279-ec81-4a4d-8fca-e89d2082d430&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;17ee3a32-6a40-467f-ad52-2f01167f4fa1&quot;,&quot;name&quot;:&quot;ScannerDiagWeb&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/Salmon%20Arm%20-%20UX%20%28Embarcadero%29/_git/ScannerDiagWeb&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/17ee3a32-6a40-467f-ad52-2f01167f4fa1&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;0bfe8279-ec81-4a4d-8fca-e89d2082d430&quot;,&quot;name&quot;:&quot;Salmon Arm - UX (Embarcadero)&quot;,&quot;revision&quot;:154,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/0bfe8279-ec81-4a4d-8fca-e89d2082d430&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Common.Server" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;8511d657-bcdc-4281-8327-e137e6de3f4c&quot;,&quot;name&quot;:&quot;Common.Server&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Common.Server&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/8511d657-bcdc-4281-8327-e137e6de3f4c&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/AddVantage" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:126,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;cecbffd2-34dd-4318-b14b-1b628e607aac&quot;,&quot;name&quot;:&quot;AddVantage&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/AddVantage&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/cecbffd2-34dd-4318-b14b-1b628e607aac&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:126,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Core" />
+          <option name="serverUri" value="https://dev.azure.com/USNR-Opt" />
+          <option name="userId" value="0d36428f-acd5-4d95-bba4-f72bfdbc80a8" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;fef6adac-a75d-40e6-a324-7aa6838149ce&quot;,&quot;name&quot;:&quot;USNR-Opt&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projectCollections/fef6adac-a75d-40e6-a324-7aa6838149ce&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;2230b5ef-a09f-4db4-a461-a0d62908903c&quot;,&quot;name&quot;:&quot;Core&quot;,&quot;remoteUrl&quot;:&quot;https://USNR-Opt@dev.azure.com/USNR-Opt/MillGenius/_git/Core&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/git/repositories/2230b5ef-a09f-4db4-a461-a0d62908903c&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;57f69869-17a6-4c3d-bb81-61a692caa77a&quot;,&quot;name&quot;:&quot;MillGenius&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/USNR-Opt/_apis/projects/57f69869-17a6-4c3d-bb81-61a692caa77a&quot;}}" />
+        </ServerContextState>
+      </array>
+    </option>
+    <option name="properties">
+      <array>
+        <PropertyState>
+          <option name="name" value="lastContextKey" />
+          <option name="value" value="//usnr-opt@dev.azure.com/usnr-opt/salmon arm - ux (embarcadero)/_git/scannerdiagweb" />
+        </PropertyState>
+      </array>
+    </option>
+  </component>
+</application>

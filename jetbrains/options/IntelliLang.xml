@@ -1,0 +1,9 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="csharp">
+      <display-name>&quot;SQL in C# (select/delete/insert/update/create)&quot;</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[csharpSqlInStringPattern()]]></place>
+    </injection>
+  </component>
+</application>
