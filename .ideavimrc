@@ -1,5 +1,7 @@
 let mapleader=' '
 set ideaput
+set NERDTree
+set surround
 scrolloff=0
 set clipboard+=unnamed
 set showmode
@@ -10,9 +12,14 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set easymotion
 set highlightedyank
 set hsl
+set incsearch
+set multiple-cursors
+set ignorecase
+set easymotion
+set commentary
+
 noremap <Space> <Nop>
 noremap <C-w> :q<CR>
 vnoremap <leader>p "_dP
@@ -21,6 +28,7 @@ nnoremap <leader>y "+y
 
 noremap <C-j> <C-d>zz
 noremap <C-k> <C-u>zz
+
 nnoremap <leader>o o<Esc>0"_D
 nnoremap <leader>O O<Esc>0"_D
 
@@ -40,3 +48,38 @@ vnoremap <leader><leader>r y:%s/<C-r>"/<C-r>"/gc<left><left><left>
 vnoremap <leader><leader>r y:%s/<C-r>"/<C-r>"/gc<left><left><left>
 
 noremap x "_x
+noremap <leader>dd "_dd
+vnoremap <leader>d "_d
+
+vnoremap <leader>/ y/<C-v><CR>
+nnoremap <leader>i i<CR><Esc>
+noremap <leader><leader>q <Esc>:wq!<CR>
+
+noremap <leader><leader>a ggVG
+
+
+vnoremap <leader><leader>* y<C-c>/<C-r>"
+
+vnoremap J :m '>+1<CR>gv=gv<Esc>V=V
+vnoremap K :m '>-2<CR>gv=gv<Esc>V=V
+
+nnoremap J mzJ`z
+
+# Rider only remaps
+nnoremap <C-u> dd\|p :action AutoIndentLines<CR>
+nnoremap <C-i> dd\|k\|P :action AutoIndentLines<CR>
+nnoremap <leader>=  :action ReformatCode<CR>
+nnoremap gh :action QuickJavaDoc<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gf :action ShowIntentionActions<CR>
+nnoremap <leader><leader>f :action Replace<CR>
+nnoremap <leader><leader>h :action Replace<CR>
+noremap <C-p> :action GotoAction<CR>
+
+nnoremap <leader>pv :NERDTree<CR>
+nnoremap <leader><leader>pv :NERDTree<CR>
+
+nnoremap <leader>ne :action GotoNextError<CR>
+
+nnoremap <leader>no :action NextOccurence<CR> 
+nnoremap <leader>po :action PreviousOccurence<CR> 

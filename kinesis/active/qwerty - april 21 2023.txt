@@ -1,0 +1,5 @@
+[escape]>[caps]
+[caps]>[escape]
+[up]>[down]
+[down]>[up]
+[bspace]>[bspace][t&h250][lalt]
