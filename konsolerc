@@ -1,0 +1,66 @@
+2 screens: Height=1200
+2 screens: Width=1920
+2 screens: XPosition=3501
+2 screens: YPosition=682
+HDMI-1 eDP-1=eDP-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEQAAAD6vwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAAAAAD6gAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAAAAAPqAAABFQEAAAMAAAeAAAAEsAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
+
+[MainWindow]
+1536x960 screen: Height=887
+1536x960 screen: Width=1536
+1536x960 screen: Window-Maximized=true
+1536x960 screen: XPosition=0
+1536x960 screen: YPosition=73
+1617x1011 screen: Height=924
+1617x1011 screen: Width=1610
+1617x1011 screen: Window-Maximized=true
+1617x1011 screen: XPosition=3
+1617x1011 screen: YPosition=83
+1707x1067 screen: Height=496
+1707x1067 screen: Width=800
+1707x1067 screen: Window-Maximized=true
+1707x1067 screen: XPosition=453
+1707x1067 screen: YPosition=322
+1920x1080 screen: Height=496
+1920x1080 screen: Width=800
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=560
+1920x1080 screen: YPosition=332
+1920x1200 screen: Height=1116
+1920x1200 screen: Width=1920
+1920x1200 screen: Window-Maximized=true
+1920x1200 screen: XPosition=0
+1920x1200 screen: YPosition=84
+2 screens: Height=1011
+2 screens: Width=1617
+2 screens: Window-Maximized=true
+2 screens: XPosition=3840
+2 screens: YPosition=701
+3840x2160 screen: Window-Maximized=true
+DP-1 eDP-1=eDP-1
+HDMI-1 eDP-1=eDP-1
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEQAAAD6vwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAAAAAD6gAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAAAAAPqAAABFQEAAAMAAAZRAAAD8wAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Notification Messages]
+CloseSingleTab=true
+
+[SplitView]
+SplitDragHandleSize=SplitDragHandleMedium
+
+[TabBar]
+TabBarVisibility=AlwaysShowTabBar
+
+[UiSettings]
+ColorScheme=
