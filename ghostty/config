@@ -47,4 +47,9 @@ font-size = 9
 
 theme = catppuccin-mocha
 
+# disable the top status bar
+window-decoration = none 
+
+
+
 
