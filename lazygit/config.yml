@@ -4,5 +4,9 @@ gui:
   switchTabsWithPanelJumpKeys: true
 git:
   paging:
+    colorArg: always
+    pager: delta --paging=never --line-numbers --features=gruvbox-dark
   # e.g. 'difft --color=always'
-  externalDiffCommand: "difft --color=always"
+  #externalDiffCommand: "difft --color=always"
+  # add delta to lazygit setup
+

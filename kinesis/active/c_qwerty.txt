@@ -11,7 +11,6 @@
 [kp-Q]>[null]
 [kp-tab]>[rwin]
 [kp-escape]>[caps]
-[kp-G]>[null]
 [kp-F]>[null]
 [kp-D]>[null]
 [kp-S]>[null]
@@ -36,7 +35,6 @@
 [kp-`]>[null]
 [kp-6]>[null]
 [numlk]>[null]
-[kp=]>[null]
 [kp-hyphen]>[null]
 [kpdiv]>[null]
 [kpmult]>[null]
@@ -56,8 +54,8 @@
 [kp-']>[null]
 [kp6]>[right]
 [kpplus]>[null]
-[rwin]>[lalt]
-[kp-rwin]>[menu]
+[rwin]>[ralt]
+[kp-rwin]>[kp-ralt]
 [pup]>[null]
 [kp-pup]>[null]
 [pdown]>[null]
@@ -95,9 +93,8 @@
 {kp-enter}>{speed5}{-lalt}{enter}{+lalt}
 {kp0}>{speed5}{-lalt}{space}{+lalt}
 {kp-n}>{speed5}{-lalt}{-lwin}{k}{+lalt}{+lwin}
-{kp1}>{speed5}{t}{e}{c}{h}{5}{6}{4}{7}
-{kp-lshift}{kp1}>{speed5}{j}{a}{r}{e}{d}{.}{p}{l}{o}{w}{m}{a}{n}{-rshift}{2}{+rshift}{4}{a}{g}{.}{a}{i}
+{kp1}>{speed5}{-rshift}{m}{+rshift}{i}{1}{1}{-rshift}{w}{+rshift}{i}{d}{e}
+{kp-lshift}{kp1}>{speed5}{j}{a}{r}{e}{d}{.}{p}{l}{o}{w}{m}{a}{n}{-rshift}{2}{+rshift}{u}{s}{n}{r}{.}{c}{o}{m}
 {kp-rshift}{kp1}>{speed5}{s}{y}{s}{-rshift}{a}{+rshift}{d}{m}{i}{n}
 {kp3}>{speed5}{-lwin}{.}{+lwin}
 {kp-pdown}>{speed5}{cbrack}
-{kp-g}>{speed5}{-lwin}{w}{+lwin}
