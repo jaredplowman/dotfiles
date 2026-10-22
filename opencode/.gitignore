@@ -1,0 +1,6 @@
+/package.json
+/package-lock.json
+/bun.lock
+/node_modules/
+/service.json
+/settings.json

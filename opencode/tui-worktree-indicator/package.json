@@ -1,0 +1,8 @@
+{
+  "name": "local-worktree-indicator",
+  "type": "module",
+  "exports": {
+    ".": "./tui.tsx",
+    "./tui": "./tui.tsx"
+  }
+}
