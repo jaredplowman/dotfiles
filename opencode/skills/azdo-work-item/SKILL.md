@@ -6,11 +6,15 @@ compatibility: opencode
 
 # Azure DevOps Work Item Reader
 
-For an ID (`12345`, `#12345`) or a URL ending in `/_workitems/edit/12345`, extract the numeric ID. For a URL, also extract its organization and project. Never execute the input as shell code. The configured `azure-devops` MCP server connects to the `USNR-Opt` organization; if a URL names another organization, ask the user to configure an MCP connection for it rather than querying the wrong organization.
+For an ID (`12345`, `#12345`) or a URL ending in `/_workitems/edit/12345`, extract the numeric ID. For a URL, also extract its organization and project; otherwise the script derives them from `origin` (falling back to USNR-Opt/OptimizerSuite). Never execute the input as shell code.
 
-Use the `azure-devops` MCP tools through `execute` (discover signatures with `search({ query: "wit_work_item", namespace: "azure-devops" })`). Call `tools["azure-devops"].wit_work_item` with `{ action: "get", id: <numeric ID>, expand: "Relations" }` and `{ action: "list_comments", workItemId: <numeric ID> }`. Provide `project` when a URL supplies it or when the repository's project is known; `get` also works at organization scope. Follow continuation tokens to retrieve all comments when necessary. These calls can run in parallel. Do not invoke the REST script by default.
+Run the bundled script with `shell` in the repository working directory:
 
-If MCP is connected but an Azure DevOps request requires sign-in, ask the user to complete the interactive Microsoft sign-in and retry. If the server is not connected, check `opencode mcp list` and use `/mcps` to connect it. Do not automatically fall back to the PAT-based REST script; ask the user first if MCP remains unavailable.
+```powershell
+& "$HOME\.config\opencode\skills\azdo-work-item\fetch-work-item.ps1" -Id 12345
+```
+
+For a URL with explicit organization and project, add `-Organization '<org>' -Project '<project>'` with safely quoted literal values. The script retrieves the item, relations, and comments and returns JSON. It tries `AZDO_PAT`, then `git config azdo.pat`, then credentials in `origin`. Never echo or log a PAT. Do not paste the script into a tool call; run the checked-in file instead.
 
 Present the result as:
 
@@ -20,4 +24,4 @@ Present the result as:
 4. Acceptance criteria (if non-empty).
 5. Related items and comments (if present; comments in chronological order).
 
-If a work-item request returns 404, the item may not exist or the signed-in account may lack access. Never display credentials or tokens.
+If authentication fails, explain the token sources tried and ask the user to grant Work Items (Read) to their PAT or provide an updated PAT via `AZDO_PAT` or `git config --global azdo.pat`. If the response is 404, the item may not exist or the PAT may not have access. Do not print raw tokens.
