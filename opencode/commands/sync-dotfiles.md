@@ -1,5 +1,5 @@
 ---
-description: Sync OpenCode configuration (skills, commands, plugins, cli.json, opencode.json) with the dotfiles repository
+description: Sync OpenCode configuration (skills, commands, plugins, AGENTS.md, cli.json, opencode.json) with the dotfiles repository
 subagent: false
 ---
 
@@ -16,6 +16,7 @@ Sync the OpenCode configuration between `~/.config/opencode` (`$HOME\.config\ope
      - `skills/` (all skills and bundled scripts)
      - `commands/` (all slash command markdown files and scripts)
      - `tui-worktree-indicator/` (`package.json`, `tui.tsx`)
+     - `AGENTS.md`
      - `cli.json`
      - `opencode.json`
    - **Always excluded** (never copy into `<dotfiles>/opencode` or overwrite in `~/.config/opencode`):
@@ -30,6 +31,6 @@ Sync the OpenCode configuration between `~/.config/opencode` (`$HOME\.config\ope
    - If any file exists only in the destination (e.g. a skill or command was deleted in the source), ask the user via the `question` tool before deleting it from the destination.
 
 4. **Apply sync & report**:
-   - Copy the added/modified files across for `skills/`, `commands/`, `tui-worktree-indicator/`, `cli.json`, and `opencode.json`.
+   - Copy the added/modified files across for `skills/`, `commands/`, `tui-worktree-indicator/`, `AGENTS.md`, `cli.json`, and `opencode.json`.
    - Run `git -C "<dotfiles>" status --short opencode/` and `git -C "<dotfiles>" diff --stat opencode/` to verify the result.
    - Present a concise summary of all synced files and ask via the `question` tool if the user would like to commit (and optionally push) the changes in the dotfiles repository.

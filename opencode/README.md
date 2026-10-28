@@ -4,6 +4,7 @@ This directory tracks personal OpenCode customizations:
 - **`skills/`**: Custom skills (`azdo-work-item`, `changed-files`, `commit`, `context-transfer`, `preview-worktree`, `squash`).
 - **`commands/`**: Custom slash commands (`build`, `close-work`, `commit-chore`, `commit-feat`, `commit-fix`, `preview`, `start-work`, `sync-dotfiles`) and `start-work-preflight.ps1`.
 - **`tui-worktree-indicator/`**: Local TUI sidebar plugin showing the active workspace, worktree, and Git branch.
+- **`AGENTS.md`**: Global agent response and communication preferences.
 - **`cli.json`**: TUI theme (`catppuccin-macchiato`), keybindings, and plugin registration.
 - **`opencode.json`**: Global LSP server configurations (`csharp`, `clangd`, `typescript`, `vue`, `json`).
 
@@ -19,7 +20,7 @@ Once `commands/sync-dotfiles.md` is in `~/.config/opencode/commands/`, run:
 /sync-dotfiles
 ```
 
-from any OpenCode session. It checks `C:\Code\dotfiles` (or prompts for the repo path if not found), syncs `skills/`, `commands/`, `tui-worktree-indicator/`, `cli.json`, and `opencode.json`, and shows a summary of changes.
+from any OpenCode session. It checks `C:\Code\dotfiles` (or prompts for the repo path if not found), syncs `skills/`, `commands/`, `tui-worktree-indicator/`, `AGENTS.md`, `cli.json`, and `opencode.json`, and shows a summary of changes.
 
 ---
 
@@ -33,7 +34,7 @@ $dotfiles = "C:\Code\dotfiles\opencode" # Adjust if cloned elsewhere
 $target = "$HOME\.config\opencode"
 New-Item -ItemType Directory -Force -Path $target | Out-Null
 
-foreach ($item in @("skills", "commands", "tui-worktree-indicator", "cli.json", "opencode.json")) {
+foreach ($item in @("skills", "commands", "tui-worktree-indicator", "AGENTS.md", "cli.json", "opencode.json")) {
     Copy-Item -Path (Join-Path $dotfiles $item) -Destination $target -Recurse -Force
 }
 ```
@@ -43,7 +44,7 @@ foreach ($item in @("skills", "commands", "tui-worktree-indicator", "cli.json", 
 DOTFILES="${HOME}/dotfiles/opencode" # Adjust if cloned elsewhere
 TARGET="${HOME}/.config/opencode"
 mkdir -p "$TARGET"
-cp -R "$DOTFILES/skills" "$DOTFILES/commands" "$DOTFILES/tui-worktree-indicator" "$DOTFILES/cli.json" "$DOTFILES/opencode.json" "$TARGET/"
+cp -R "$DOTFILES/skills" "$DOTFILES/commands" "$DOTFILES/tui-worktree-indicator" "$DOTFILES/AGENTS.md" "$DOTFILES/cli.json" "$DOTFILES/opencode.json" "$TARGET/"
 ```
 
 ### 2. Updating Machine- & Version-Specific Paths

@@ -15,7 +15,7 @@ Personal cross-platform dotfiles repository (Linux/macOS and Windows). There is 
 
 ## Tool-Specific Quirks
 - **OpenCode (`opencode/`)**:
-  - Tracks `~/.config/opencode` customizations: `skills/`, `commands/`, `tui-worktree-indicator/`, `cli.json`, and `opencode.json`.
+  - Tracks `~/.config/opencode` customizations: `skills/`, `commands/`, `tui-worktree-indicator/`, `AGENTS.md`, `cli.json`, and `opencode.json`.
   - Use `/sync-dotfiles` (`opencode/commands/sync-dotfiles.md`) to sync between `~/.config/opencode` and this repo (checks `C:\Code\dotfiles` first and prompts if moved).
   - Never commit `service.json` (contains plaintext password) or root runtime dependency files (`node_modules/`, root `/package.json`, `package-lock.json`, `bun.lock`). Note that `opencode/tui-worktree-indicator/package.json` *is* tracked.
   - `opencode/opencode.json` contains hardcoded Windows paths and versioned `.dotnet/tools/.store/roslyn-language-server/<version>` paths—see `opencode/README.md` when disseminating to another machine or upgrading LSP tools.
