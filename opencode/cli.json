@@ -3,7 +3,6 @@
   "theme": {
     "name": "catppuccin-macchiato"
   },
-  "plugins": ["./tui-worktree-indicator"],
   "keybinds": {
     "session.tab.next": "ctrl+tab,alt+right",
     "session.tab.previous": "ctrl+shift+tab,alt+left",

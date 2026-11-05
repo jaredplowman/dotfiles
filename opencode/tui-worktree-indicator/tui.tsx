@@ -1,6 +1,8 @@
 import { TextAttributes } from "@opentui/core"
 import { Plugin, usePlugin } from "@opencode/plugin/tui"
 import { createEffect, createSignal, For, onCleanup, Show } from "solid-js"
+import { CopilotUsage } from "./rpc"
+import { LastModelCall } from "./request-cost"
 
 type FileStatus = {
   file: string
@@ -151,6 +153,8 @@ function WorktreeIndicator(props: { sessionID: string }) {
         <text fg={context.theme.text.base} attributes={TextAttributes.BOLD}>Workspace</text>
         <text fg={context.theme.text.muted}>{workspace()}</text>
       </box>
+      <LastModelCall sessionID={props.sessionID} />
+      <CopilotMonthlyUsage />
       <box flexDirection="column">
         <text fg={context.theme.text.base} attributes={TextAttributes.BOLD}>Worktree</text>
         <text fg={context.theme.text.muted}>{worktree()}</text>
@@ -196,6 +200,43 @@ function WorktreeIndicator(props: { sessionID: string }) {
           </For>
         </Show>
       </box>
+    </box>
+  )
+}
+
+function CopilotMonthlyUsage() {
+  const context = usePlugin()
+  const [label, setLabel] = createSignal("Loading…")
+  let active = true
+  let loading = false
+
+  const refresh = async () => {
+    if (loading) return
+    loading = true
+    try {
+      const result = await context.client.rpc(CopilotUsage).monthly({})
+      if (!active) return
+      setLabel(result.status === "ok" && typeof result.used === "number"
+        ? `${result.used.toLocaleString()}${typeof result.allowance === "number" ? ` / ${result.allowance.toLocaleString()}` : ""} AI credits this month`
+        : "Usage unavailable")
+    } catch {
+      if (active) setLabel("Usage unavailable")
+    } finally {
+      loading = false
+    }
+  }
+
+  void refresh()
+  const timer = setInterval(() => void refresh(), 5 * 60 * 1000)
+  onCleanup(() => {
+    active = false
+    clearInterval(timer)
+  })
+
+  return (
+    <box flexDirection="column">
+      <text fg={context.theme.text.base} attributes={TextAttributes.BOLD}>Copilot</text>
+      <text fg={context.theme.text.muted}>{label()}</text>
     </box>
   )
 }

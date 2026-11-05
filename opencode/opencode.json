@@ -1,5 +1,10 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "policies": [
+    { "action": "provider.use", "resource": "*", "effect": "deny" },
+    { "action": "provider.use", "resource": "github-copilot", "effect": "allow" }
+  ],
+  "plugins": ["./tui-worktree-indicator"],
   "permission": {
     "read": {
       "~/.config/opencode/get-shit-done/*": "allow"
