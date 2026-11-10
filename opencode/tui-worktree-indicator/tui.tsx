@@ -204,6 +204,9 @@ function WorktreeIndicator(props: { sessionID: string }) {
   )
 }
 
+const formatCredits = (cents: number) =>
+  (cents / 100).toLocaleString("en-US", { style: "currency", currency: "USD" })
+
 function CopilotMonthlyUsage() {
   const context = usePlugin()
   const [label, setLabel] = createSignal("Loading…")
@@ -217,7 +220,7 @@ function CopilotMonthlyUsage() {
       const result = await context.client.rpc(CopilotUsage).monthly({})
       if (!active) return
       setLabel(result.status === "ok" && typeof result.used === "number"
-        ? `${result.used.toLocaleString()}${typeof result.allowance === "number" ? ` / ${result.allowance.toLocaleString()}` : ""} AI credits this month`
+        ? `${formatCredits(result.used)}${typeof result.allowance === "number" ? ` / ${formatCredits(result.allowance)}` : ""}`
         : "Usage unavailable")
     } catch {
       if (active) setLabel("Usage unavailable")

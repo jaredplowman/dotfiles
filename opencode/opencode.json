@@ -4,6 +4,24 @@
     { "action": "provider.use", "resource": "*", "effect": "deny" },
     { "action": "provider.use", "resource": "github-copilot", "effect": "allow" }
   ],
+  "providers": {
+    "github-copilot": {
+      "models": {
+        "claude-opus-5": { "disabled": true },
+        "claude-sonnet-5": { "disabled": true },
+        "claude-opus-4.8": { "disabled": true },
+        "claude-opus-4.8-fast": { "disabled": true },
+        "claude-haiku-4.5": { "disabled": true },
+        "gpt-5.6-luna": { "disabled": true },
+        "gpt-5.6-sol": { "disabled": true },
+        "gpt-5.6-terra": { "disabled": true },
+        "gpt-5.3-codex": { "disabled": true },
+        "grok-4.7": { "disabled": true },
+        "grok-4.6": { "disabled": true },
+        "mai-code-1.1-flash": { "disabled": true }
+      }
+    }
+  },
   "plugins": ["./tui-worktree-indicator"],
   "permission": {
     "read": {

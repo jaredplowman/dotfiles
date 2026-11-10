@@ -1,5 +1,7 @@
 ---
 description: Preview a worktree's branch and uncommitted changes in the main checkout via detached HEAD
+agent: build
+model: github-copilot/gpt-6-luna
 subagent: false
 ---
 

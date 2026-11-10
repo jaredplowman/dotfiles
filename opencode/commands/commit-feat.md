@@ -1,6 +1,7 @@
 ---
 description: Stage all changes and create a feat commit with title and body
 agent: build
+model: github-copilot/gpt-6-luna
 ---
 
 Stage all current changes and create a git commit.
